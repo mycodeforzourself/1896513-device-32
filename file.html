@@ -10,19 +10,23 @@
     
     <!--Mеню в шапке сайта и его логотип-->
 
-
-    <a href="#">
-        <img alt="Логотип Device" src="./image/Group.png">
-    </a>
+     
     <div class="header-logo">
-        <div class="menu">
-            <img src="./image/Vector.jpg">
+
+           
+           <div class="logo">
+            <a href="#"> 
+                <img alt="Логотип Device" src="./image/device.png">
+            </a>
+          </div>
+            <div class="menu">
+            <img src="/image/search.png">
             <a class="search-item" href="#">Поиск по сайту</a>
-            <img src="./image/Vector.svg">
+            <img src="./image/Vector(2).png">
             <a class="menu-item" href="#">Войти</a>
-            <img src="./image/compare.jpg">
+            <img src="./image/compare.png">
             <a class="menu-item" href="#">Сравнить</a>
-            <img src="./image/Vector3.jpg">
+            <img src="./image/Vector(3).png">
             <a class="menu-item" href="#">Корзина</a>
         </div>
         <!--Навигационое меню 2 -->
@@ -32,11 +36,11 @@
             <a class="navigation_item" href="#">Гарантия</a>
             <a class="navigation_item" href="#">Контакты</a>
         </div>
-    </div>
+
 
     <!-- Слайд товаров -->
     <div class="kvadra-img">
-        <img src="./image/slider-1.jpg">
+        <img src="./image/slider-1.jpg" width="560px" height="560px" class="kvadra">
         <span>Порхает как бабочка,
           жалит как пчела!</span>
         <span class="discription">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
@@ -51,52 +55,83 @@
             <td>Радиус поражения</td>
         </table>
     </div>
-    </nav>
+</div>
+<br>
+    
 </header>
 
 <!--Категория сортированого по групе товари -->
-<section class="products">
-    <div class="category-product">
-    <img alt="Шлем виртуальная реальность" src="./image/popular-1.png">
-    </div>
-    
-    
-
-    <div class="category-product">
-        <img alt="Моноподы для селфи" src="./image/monopode.png">
-    </div>
-     
-
-
-        <div class="category-product">
-            <img alt="Экшн-камеры" src="./image/popular-3.png">
-        </div>
+<section class="categories"> 
+    <h2 class ="visually-hidden"> Категория</h2>
+    <ul class="category-list">
         
+    <li class="category-item">
+
+    <a class="categories-link" href="#">   
+    <img class ="category-image" src="./image/popular-1.png"> 
+    </a>
+       <p class="category-title">
+           Виртуальная реальность 
+    </p> 
+    </li>
 
 
-    <div class="category-product">
-        <img alt="Фитнес-браслеты" src="./image/Vector.png">
-    </div>
-      
+    <li class="category-item">
+        <a class="categories-link" href="#">   
+        <img class ="category-image" src="./image/monopode.png"> 
+        </a>
+           <p class="category-title">
+            Моноподы для селфи 
+        </p> 
+        </li>
+
+
+        <li class="category-item">
+            <a class="categories-link" href="#">   
+            <img class ="category-image" src="./image/popular-3.png"> 
+            </a>
+               <p class="category-title">
+                Экшн-камеры
+            </p> 
+            </li>
+   
     
 
-    <div class="category-product">
-        <img alt="умные часы" src="./image/popular-5.png">
-    </div>
+            <li class="category-item">
+                <a class="categories-link" href="#">   
+                <img class ="category-image" src="./image/Vector.png">
+                </a>
+                   <p class="category-title">
+                    Фитнес-браслеты
+                </p> 
+                </li>
+       
 
-    <div  class="category-product">
-        <img alt="умные часы" src="./image/Vector(1).png">
-    </div>      
+                <li class="category-item">
+                    <a class="categories-link" href="#">   
+                    <img class ="category-image" src="./image/popular-5.png">
+                    </a>
+                       <p class="category-title">
+                        Умные часы
+                    </p> 
+                    </li>
+           
+ 
+                    <li class="category-item">
+                        <a class="categories-link" href="#">   
+                        <img class ="category-image"src="./image/Vector(1).png">
+                        </a>
+                           <p class="category-title">
+                            Квадрокоптеры
+                        </p> 
+                        </li> 
+   </ul>      
 </section>
-<div class="product-item">
-    <a class="block-link" href="category_VR.html">Виртуальная реальность</a>
-    <a class="block-link" href="category-selfie_monopods.html">Моноподы для селфи</a>   
-    <a class="block-link" href="action_camera.html">Экшн-камеры</a>
-    <a class="block-link" href="fitness_watch">Фитнес-браслеты</a>
-    <a class="block-link" href="electro-watch">Умные часы</a>
-    <a class="block-link" href="kvadrakoptery">Квадрокоптеры</a>
-    <a class="block-link" href="fitness_watch">Фитнес-браслеты</a>
-</div>
+ 
+ 
+   
+
+
 
 
         
@@ -114,7 +149,7 @@
             мы неплохо заработаем, поднимая его на ваш этаж.</p>
         <img src="./image/delivery 2.svg">
 
-        <li class="advantages-item">Гарантия</li>
+       <!--<li class="advantages-item">Гарантия</li>
         <span class="advantages-title">Гарантия</span>
         <p class="advantages-description">Если из-за возгорания купленного у нас товара у вас
             сгорит дом — не переживайте, мы выдадим вам новый.
